@@ -1,0 +1,30 @@
+<div class="container" id="certification">
+    <div class="row">
+        <div class="col-md-6 listitem col-sm-12">
+            <h2 style="color: aliceblue;">Certification</h2> &nbsp;
+            <ul>
+                <li   class="m-2"> <button [ngClass]="{'active': view==='database'}" (click)="view='database'">
+                        Database Programming with SQL (ORACLE Academy)
+                    </button></li>
+                <li class="m-2"> <button [ngClass]="{'active': view==='Introduction'}" (click)="view ='Introduction'">
+                        Introduction to java (Coding Ninjas)
+                    </button></li>
+                <li class="m-2"> <button [ngClass]="{'active': view==='java'}" (click)="view='java'">
+                        Java basic (Hacker Rank)
+                    </button></li>
+            </ul>
+
+        </div>
+        <div class="col imgcertificate m-5 " *ngIf="view=='database'">
+            <img src="../../assets/img/DATABASE PROGRAMMING WITH SQL_page-0001.jpg" alt="grhgt">
+        </div>
+
+        <div class="col imgcertificate m-5" *ngIf="view=='java'">
+            <img src="../../assets/img/hackerrank.jpg" alt="fdgrgrgrgrrg">
+        </div>
+
+        <div class="col imgcertificate m-5" *ngIf="view=='Introduction'">
+            <img src="../../assets/img/coding.jpg" alt="fdgrgrgrgrrg">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+.skill,.abc1{
+    font-size: 1rem;
+    color: aliceblue;
+}
+.experience,h3{
+    font-size: 1.4rem;
+    color: rgb(214, 230, 214);
+    background-color: rgb(170, 56, 3);
+    text-align:center;
+    border-radius: 1.4rem;
+
+}
+#JAVASCRIPT{
+    transition: transform 200ms ease-in-out;
+}
+#JAVASCRIPT:hover{
+    box-shadow: 0.5px 0.5px 1px white;
+    transform: scale(1.13);
+}

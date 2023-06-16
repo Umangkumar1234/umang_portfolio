@@ -1,0 +1,18 @@
+.abc span{
+    color: aliceblue;
+    
+  
+}
+
+.abc span a{
+    color: rgb(5, 5, 223);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+.imgcertificate img{
+    width: 70%;
+    height: 200px;
+    border: 1px solid rgb(11, 96, 145);
+    border-radius: 5%;
+}
